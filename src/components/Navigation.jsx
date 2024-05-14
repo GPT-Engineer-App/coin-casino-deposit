@@ -10,6 +10,9 @@ const Navigation = () => {
       <Button as={Link} to="/snake-game" colorScheme="teal">
         Snake Game
       </Button>
+      <Button as={Link} to="/tic-tac-toe" colorScheme="teal">
+        Tic Tac Toe
+      </Button>
     </HStack>
   );
 };
